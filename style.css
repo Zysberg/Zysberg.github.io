@@ -1,0 +1,260 @@
+  /**
+    
+   * Credits for animations
+   
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+
+#TITLE {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-size: cover;
+    /*background-image: url(images/NY_Circles.jpg);*/
+    background-color: #DAF7A6;
+    background-position: center right;
+    font-size: 225%;
+    margin: 0 auto;
+    background-image: url(../images/NY_Circles.jpg)
+}
+
+ul{
+    list-style: square;
+}
+
+ul>ul{
+    list-style: circle;
+}
+
+.BlocksAlign > a{
+    color:#000;
+    text-decoration:none;
+}
+a:hover{
+    color: #00F;
+    text-decoration: none;
+}
+#UNO >a{
+    color:#FFF;
+}
+#UNO > a:hover{
+    color: #99F;
+    text-decoration: none;
+}
+#SBU,.jobList{
+    position:relative;
+    top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #990000;
+    color:#FFF;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 15%;
+}
+#UNItext{
+    flex-basis: content;
+        text-align:left;
+    padding:10px;
+}
+#SBUimg{
+ flex-basis:35%;
+}
+
+.master{
+    position: relative;
+    top:60px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom: 60px;
+}
+.BlocksAlign{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:30px;
+    text-align:left;
+    font-weight:500;
+    
+}
+
+#LittleBio{
+    position: relative;
+    top:35px;
+    margin-left: 25%;
+    margin-right:20%;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+
+.BlocksAlign>ul{
+    margin-left:5%;
+    max-width: 721px;
+}
+#Projects{text-align: center;}
+
+#Konigsberg{
+    background-image: url(../images/Konigsberg.JPG);
+    color:#000;
+}
+#UNO{background-image: url(../images/rgby21.png);
+     color:#FFF;
+    background-size:auto;
+    background-position: 35% 48%;
+
+}
+#Lindenmeyer{
+    background-image: url(../images/LFract.JPG);
+    background-position:top;
+}
+
+#ChessVariant{
+    background-image: url(../images/ChessV.JPG);
+    background-position: top left;
+    color: white;
+}
+/* 
+#qwaszx{
+    padding-top:px;
+    padding-bottom:25px;
+} */
+.projTitle{
+    position:relative;
+    margin:0 auto;
+    margin-top:10px;
+    margin-left: 5%;
+}
+.projSubTitle{
+    position:relative;
+    margin-left:5%;
+    margin-top: 5px;
+}
+
+#jobList{
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    top:60px;
+}
+.Job{
+    position:relative;
+background-color: #ABC;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items:center;
+    left:20%;
+    width:80%;
+}
+
+#QPwo{
+    color:white;
+}
+.Job-text {
+    flex-basis:60%;
+    padding-left: 20px;  
+padding-right: 20px;
+    text-align: left;
+}
+.space{
+order:-1;
+    flex-basis: 40%;
+}
+#jobList>#WorkExp{
+    margin-left:30%;
+    margin-bottom: 15px;
+}
+#NYAW{
+background-image: url(../images/ACapture.PNG);
+color:#FFF;
+    background-size: auto;
+    
+    background-position: 50%, 20%;
+}
+#TLT{
+    background-image: url(../images/Nodes.jpg);
+    color:#FFF;
+    background-position: center left;
+}
+
+#DoD{
+    background-image: url(../images/image.jpg);
+    color:#FFF;
+    background-position: center left;
+}
+#FREE{
+    background-image: url(../images/freebkgnd.jpg);
+    background-position: 70% 30%;
+    color:#000;
+}
+#intro{
+    padding:15px;
+    background-color: #000;
+    color: darkseagreen;
+    font-style: italic;
+}
+
+
+.Contact{
+    display: block;
+    top:15px;
+    padding-bottom: 20px;
+}
+body {
+    background-color: darkseagreen;
+    font-family: sans-serif;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+#container{
+     background-color: #c2ccc1/*#DAF7A6*/;
+    height: 100%;
+}
+.come-in {
+  transform: translateY(500px);
+  animation: come-in 2s ease forwards;
+}
+.come-inX {
+  transform: translateX(2000px);
+  animation: come-in 2s ease forwards;
+}
+.come-inNX {
+  transform: translateX(-2000px);
+  animation: come-in 2s ease forwards;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+@keyframes come-inX {
+  to { transform: translateX(0); }
+}
+
+@keyframes come-inNX {
+  to { transform: translateX(0); }
+}
+
+.container{
+    z-index: -1;
+}
+
+
+
